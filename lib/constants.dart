@@ -91,27 +91,27 @@ class PrimaryText extends StatelessWidget {
 const CardsList = [
   {
     'imagePath': 'assets/nums.png',
-    'name': 'الأرقام',
+    'name': 'raqamlar',
   },
   {
     'imagePath': 'assets/letters.png',
-    'name': ' الحروف',
+    'name': ' harflar',
   },
   {
     'imagePath': 'assets/animals.png',
-    'name': 'الحيوانات',
+    'name': 'hayvonlar',
   },
   {
     'imagePath': 'assets/family.png',
-    'name': 'العائلة',
+    'name': 'oila',
   },
   {
     'imagePath': 'assets/fruits.png',
-    'name': 'الفواكه',
+    'name': 'mevalar',
   },
   {
     'imagePath': 'assets/vegetables.png',
-    'name': 'الخضراوات',
+    'name': 'sabzavotlar',
   },
 ];
 
@@ -423,7 +423,7 @@ const familyList = [
   },
   {
     'imagePath': 'assets/family/5.png',
-    'name': 'العمة/الخالة',
+    'name': 'Xola',
   },
   {
     'imagePath': 'assets/family/6.png',

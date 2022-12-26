@@ -54,7 +54,7 @@ class _MainScreenState extends State<MainScreen> {
           Padding(
             padding: EdgeInsets.only(right: 15),
             child: PrimaryText(
-              text: "،مرحباً بك",
+              text: "Xush kelibsiz",
               color: AppColors.white,
               fontWeight: FontWeight.bold,
               size: 30,
@@ -65,7 +65,7 @@ class _MainScreenState extends State<MainScreen> {
             child: Padding(
                 padding: EdgeInsets.only(right: 15),
                 child: PrimaryText(
-                  text: "ماذا تريد أن تتعلم اليوم؟",
+                  text: "Bugun nimalarni o'rganamiz",
                   color: AppColors.white,
                   fontWeight: FontWeight.bold,
                   size: 30,
@@ -78,7 +78,7 @@ class _MainScreenState extends State<MainScreen> {
                   padding: EdgeInsets.only(right: 15),
                   child: PrimaryText(
                     text:
-                        "دعنا نبدأ رحلة من التعلم واللعب سوياً، مع مجموعة من الدروس التعليمية والألعاب المسلية!",
+                        "Keling, ta'lim darslari va qiziqarli o'yinlar to'plami bilan birga o'rganish va o'ynash sayohatini boshlaylik",
                     size: 18,
                     color: AppColors.black,
                   ))),
@@ -169,7 +169,8 @@ class _MainScreenState extends State<MainScreen> {
               width: 90,
               child: Image.asset("assets/games.png", fit: BoxFit.fill),
             ),
-            PrimaryText(text: "الألعاب", fontWeight: FontWeight.w800, size: 25),
+            PrimaryText(
+                text: "o'yinlar", fontWeight: FontWeight.w800, size: 25),
           ],
         ),
       ),
